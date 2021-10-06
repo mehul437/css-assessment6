@@ -1,0 +1,513 @@
+
+body{
+    background:url("./back.jpeg");
+    height: 95vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+.menu{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    box-sizing: border-box;
+    
+}
+menu ul a{
+    text-decoration: none;
+
+}
+.menu ul{
+    list-style: none;
+    float: right;
+    margin-right: 154px;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 45px;
+    color: white;
+}
+.icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding-left: 9px;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+.cont{
+    margin-top: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cam{
+    position: relative;
+    transition: transform 0.4s ease-out;
+}
+.cam:hover{
+    transform:translateY(-10px);
+}
+.left{
+    width: 530px;
+    margin-top: 52px;
+    color: white;
+   
+}
+.sahra{
+    font-size: 70px;
+    font-weight: 900;
+
+
+
+}
+.exp{
+    width: 175px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
+ 
+}
+.exp a{   color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+.right{
+    
+    width: 532px;
+    height: 500px;
+    margin-top: -92px;
+
+}
+img{
+    width:200px;
+    border-radius: 10px;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 36px;
+
+}
+.west{
+    position :absolute;
+    color: white;
+    top: 0px;
+    right:6px;
+    text-shadow: 2px 2px 2px black;
+   
+    
+
+}
+.west span{
+    font-size: larger;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+.mo{
+    position: relative;
+    transition:transform 0.4s ease-out;
+
+}
+.mo:hover{
+    transform: translateY(-10px)
+}
+.mon{
+    position :absolute;
+    color: white;
+    top: 0px;
+    right: 9px;
+    text-shadow: 2px 2px 2px black;
+
+}
+.mon span{
+    font-size: larger;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+.n{
+    position: relative;
+    transition:transform 0.4s ease-out;
+
+}
+.n:hover{
+    transform: translateY(-10px)
+}
+
+.ni{
+    position :absolute;
+    color: white;
+    top:4px;
+    right: 6px;
+    text-shadow: 2px 2px 2px black;
+
+}
+.ni span{
+    font-size: larger;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+.p{
+    position: relative;
+    transition:transform 0.4s ease-out;
+
+}
+.p:hover{
+    transform: translateY(-10px)
+}
+.py{
+    position :absolute;
+    color: white;
+    top: 4px;
+    right: 6px;
+    text-shadow: 2px 2px 2px black;
+
+}
+.py span{
+    font-size: larger;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+@media screen and (min-width:500px) and (max-width:815px) {
+    
+
+body{
+    background:url("./back.jpeg");
+    height: 95vh;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    
+}
+.menu{
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+ 
+.menu ul li{
+    display: inline-block;
+    padding-left: 30px;
+    color: white;
+}   
+.cont{
+    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left{
+    width: 530px;
+    margin-top: -30px;
+    color: white;
+    margin-left: 40px;
+    
+   
+}
+
+.right{
+   width: 532px;
+    height: 500px;
+    margin-top: 58px;
+    margin-left: 85px;
+
+}
+
+img{
+    width:95%;
+    height:39vh;
+    border-radius: 10px;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cam{
+    position: relative;
+    padding-top: 10px;
+    
+
+}
+.west{
+    position :absolute;
+    color: white;
+    top: 28px;
+    left:60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+    
+
+}
+
+.west span{
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+.mo{
+    position: relative;
+    padding-top: 45px;
+
+}
+
+.mon{
+    position :absolute;
+    color: white;
+    top: 70px;
+    left: 60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+
+}
+.mon span{
+    font-size:x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.n{
+    position: relative;
+    padding-top: 45px;
+}
+
+.ni{
+    position :absolute;
+    color: white;
+    top:70px;
+    left: 60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+
+}
+.ni span{
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+.p{
+    position: relative;
+    padding-top: 45px;
+
+}
+.py{
+    position :absolute;
+    color: white;
+    top: 70px;
+    left: 60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+
+}
+.py span{
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+}
+
+@media screen and (min-width:360px) and (max-width:640px) {
+
+    
+body{
+    background:url("./back.jpeg");
+    height: 95vh;
+    background-size: 173%;
+    background-repeat: repeat-y;
+    
+}
+
+.menu{
+    margin-top: 10px;
+    width: 146%;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 1%;
+    position: relative;
+    
+}
+ 
+.menu ul li{
+    
+    
+    padding-left: 20px;
+    color: white;
+}   
+
+.cont{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left{
+    width: 525px;
+    margin-top: 0px;
+    color: white;
+    margin-left: 32px;
+    
+   
+}
+
+.right{
+   width: 532px;
+    height: 500px;
+    margin-top: 58px;
+    margin-left: 85px;
+
+}
+
+.menu ul{
+    list-style: none;
+    margin-left: 155px;
+}
+
+.icon{
+    height: 31px;
+    width: 34px;
+    border-radius: 48%;
+    background-color: lightgray;
+    padding-left: 9px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.lorem{
+    font-size: 19px;
+}
+
+img{
+    width:67%;
+    height:53vh;
+    border-radius: 10px;
+    
+}
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cam{
+    position: relative;
+    padding-top: 10px;
+    
+
+}
+.west{
+    position :absolute;
+    color: white;
+    top: 28px;
+    left:60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+    
+
+}
+
+.west span{
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+.mo{
+    position: relative;
+    padding-top: 45px;
+
+}
+
+.mon{
+    position :absolute;
+    color: white;
+    top: 70px;
+    left: 60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+
+}
+.mon span{
+    font-size:x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.n{
+    position: relative;
+    padding-top: 45px;
+}
+
+.ni{
+    position :absolute;
+    color: white;
+    top:70px;
+    left: 60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+
+}
+.ni span{
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+.p{
+    position: relative;
+    padding-top: 45px;
+
+}
+.py{
+    position :absolute;
+    color: white;
+    top: 70px;
+    left: 60px;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+
+}
+.py span{
+    font-size: x-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+}
